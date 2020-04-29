@@ -59,7 +59,7 @@ def clear_signal1():
     plt.show()
 
 
-    wavfile.write("clear0.wav", sample_rate, y_1)
+    wavfile.write("clear0.wav", sample_rate, y_1.astype(np.int16))
 
 
 def apply_filter(b, a, x: np.ndarray, window_len=9):
@@ -111,9 +111,10 @@ def clear_signal2():
     plt.show()
 
 
-    wavfile.write("clear1.wav", sample_rate, y_1)
+    wavfile.write("clear1.wav", sample_rate, y_1.astype(np.int16))
 
 
 if __name__=="__main__":
+
     clear_signal1()
     clear_signal2()
