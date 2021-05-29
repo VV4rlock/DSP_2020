@@ -9,8 +9,8 @@ import pickle
 
 logging.basicConfig(format="[%(filename)s: %(funcName)s] %(message)s", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
-LOCATOR_DUMPFILE = r"../dsp_lab/lab_1/hw_1_examples/0/0_12_9_1221292.pickle"
-RECV_SIGNAL = r"../dsp_lab/lab_1/hw_1_examples/1/0.wav"
+LOCATOR_DUMPFILE = r"0_12_9_1221292.pickle"
+RECV_SIGNAL = r"0.wav"
 #LOCATOR_DUMPFILE = r"../dsp_lab/lab_1/hw_1_examples/0/1_14_13_1179628.pickle"
 #LOCATOR_DUMPFILE = r"../dsp_lab/lab_1/hw_1_examples/0/2_14_6_1424377.pickle"
 

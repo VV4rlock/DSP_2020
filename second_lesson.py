@@ -8,7 +8,7 @@ from scipy.io import wavfile
 
 logging.basicConfig(format="[%(filename)s: %(funcName)s] %(message)s", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
-FILE_PATH = r"../dsp_lab/lab_0/hw_0_examples/0.wav"
+FILE_PATH = r"lab_0_0.wav"
 
 def sample1():
     x_1 = np.arange(20)
